@@ -143,7 +143,7 @@
 // TODO(apolcyn): re-evaluate support for c-ares
 // on android after upgrading our c-ares dependency.
 // See https://github.com/grpc/grpc/issues/18038.
-#define GRPC_ARES 0
+#define GRPC_ARES 1
 #ifdef _LP64
 #define GPR_ARCH_64 1
 #else /* _LP64 */
